@@ -61,7 +61,7 @@ git clone https://github.com/RegidGhost/Foundry-to-the-Stars.git
 ```
 
 3. Open the project folder via Unity Hub.
-4. Open Assets/Scenes/MainScene.unity.
+4. Open `Assets/Scenes/MainScene.unity`.
 5. Press Play.
 
 ## Building
