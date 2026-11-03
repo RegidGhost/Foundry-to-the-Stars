@@ -12,7 +12,7 @@
 2. Клонировать репозиторий:
 
 ```bash
-git clone https://github.com/ваш-username/Foundry-to-the-Stars.git
+git clone https://github.com/RegidGhost/Foundry-to-the-Stars.git
 ```
 
 3. Открыть папку проекта через Unity Hub.
