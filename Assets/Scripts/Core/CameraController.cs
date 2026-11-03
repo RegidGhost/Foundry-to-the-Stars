@@ -40,6 +40,8 @@ public class CameraController : MonoBehaviour
             // Учитываем зум: чем дальше камера, тем быстрее движение
             float zoomFactor = _camera.orthographicSize / 5f;
             _targetPosition += new Vector3(deltaX, deltaY, 0) * zoomFactor;
+            _targetPosition.x = Mathf.Clamp(_targetPosition.x, -50f, 50f);
+            _targetPosition.y = Mathf.Clamp(_targetPosition.y, -50f, 50f);
         }
     }
 
