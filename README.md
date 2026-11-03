@@ -1,40 +1,46 @@
+![Logo](docs/logo.png)
+
+![English](https://img.shields.io/badge/English-active-blue) [![Русский](https://img.shields.io/badge/Русский-switch-lightgrey)](README.ru.md)
+
 # Foundry to the Stars
 
-2D-игра про автоматизацию: построить завод на чужой планете и собрать ракету для возвращения домой.
+A 2D automation game: build a factory on an alien planet and assemble a rocket to return home.
 
-Статус: в разработке.  
-Платформа: Windows.  
-Движок: Unity 6.6, 2D URP, C# 2.160.4.
+Status: in development.
+Platform: Windows.
+Engine: Unity 6.6, 2D URP, C# 2.160.4.
 
-## Запуск
+## Running the project
 
-1. Установить Unity Hub и Unity 6.6 с Windows Build Support.
-2. Клонировать репозиторий:
+1. Install Unity Hub and Unity 6.6 with Windows Build Support.
+2. Clone the repository:
 
 ```bash
 git clone https://github.com/RegidGhost/Foundry-to-the-Stars.git
 ```
 
-3. Открыть папку проекта через Unity Hub.
-4. Открыть `Assets/Scenes/MainScene.unity`.
-5. Нажать Play.
+3. Open the project folder via Unity Hub.
+4. Open `Assets/Scenes/MainScene.unity`.
+5. Press Play.
 
-## Сборка
+## Building
 
-В Unity: `File -> Build Settings -> Windows -> Build`.
+In Unity: `File -> Build Settings -> Windows -> Build`.
 
-## Структура
+## Structure
 
 ```text
 Assets/
-├── Scripts/   игровой код
-├── Data/      ScriptableObject-ассеты
-├── Prefabs/   префабы
-├── Art/       спрайты и тайлы
-├── Audio/     музыка и SFX
-└── Scenes/    сцены
+├── Scripts/   game code
+├── Data/      ScriptableObject assets
+├── Prefabs/   prefabs
+├── Art/       sprites and tiles
+├── Audio/     music and SFX
+└── Scenes/    scenes
 ```
 
-## Лицензия
+## License
 
-MIT. См. `LICENSE`.
+MIT. See `LICENSE`.
+
+
