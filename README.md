@@ -4,11 +4,11 @@
 
 Статус: в разработке.  
 Платформа: Windows.  
-Движок: Unity 6 LTS, 2D URP, C#.
+Движок: Unity 6.6, 2D URP, C# 2.160.4.
 
 ## Запуск
 
-1. Установить Unity Hub и Unity 6 LTS с Windows Build Support.
+1. Установить Unity Hub и Unity 6.6 с Windows Build Support.
 2. Клонировать репозиторий:
 
 ```bash
