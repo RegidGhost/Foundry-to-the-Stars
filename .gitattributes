@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.unity linguist-detectable=true
+*.prefab linguist-detectable=true
+*.asset linguist-detectable=true
