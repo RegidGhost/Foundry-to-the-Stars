@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -15,6 +16,12 @@ public class GameManager : MonoBehaviour
         Instance = this;
     }
 
+    private void Start()
+    {
+        // Запускаем автосохранение
+        StartCoroutine(AutoSaveRoutine());
+    }
+
     private void Update()
     {
         _timer += Time.deltaTime;
@@ -22,6 +29,15 @@ public class GameManager : MonoBehaviour
         {
             _timer -= TickInterval;
             OnTick?.Invoke(TickInterval);
+        }
+    }
+
+    private IEnumerator AutoSaveRoutine()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(300f); // Ждём 5 минут (300 секунд)
+            SaveSystem.Save();
         }
     }
 }

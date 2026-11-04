@@ -9,13 +9,16 @@ public class Furnace : BuildingBase
 
     public override bool TryAddItem(ItemData item, int count = 1)
     {
+        // Убрали проверку IsPowered отсюда
         if (item != inputOre) return false;
         return Inventory.TryAdd(item, count);
     }
 
     public override void OnTick(float dt)
     {
+        if (!IsPowered) return; // ДОБАВИЛИ СЮДА
         if (inputOre == null || outputPlate == null) return;
+        
         if (Inventory.Has(inputOre, 1))
         {
             _timer += dt;

@@ -6,6 +6,7 @@ public abstract class BuildingBase : MonoBehaviour
     public Vector2Int GridPosition { get; private set; }
     public int Rotation { get; private set; }
     public Inventory Inventory { get; protected set; }
+    public bool IsPowered { get; set; } = true;
 
     protected virtual int InventoryCapacity => 4;
 

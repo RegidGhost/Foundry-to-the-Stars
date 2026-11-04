@@ -10,6 +10,7 @@ public class Miner : BuildingBase
 
     public override void OnTick(float dt)
     {
+        if (!IsPowered) return;
         if (oreType == null) return;
         _timer += dt;
         if (_timer >= mineInterval) { _timer -= mineInterval; TryOutput(); }

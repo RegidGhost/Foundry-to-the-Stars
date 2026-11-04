@@ -77,6 +77,7 @@ public class BuildingPlacer : MonoBehaviour
         {
             BeltManager.Instance.Register(belt);
             BeltManager.Instance.RelinkAll();
+            PowerManager.Instance.RebuildNetworks();
         }
     }
 
@@ -100,5 +101,6 @@ public class BuildingPlacer : MonoBehaviour
         BuildingRegistry.Unregister(b);
         Destroy(b.gameObject);
         BeltManager.Instance.RelinkAll();
+        PowerManager.Instance.RebuildNetworks();
     }
 }
