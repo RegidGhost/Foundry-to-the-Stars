@@ -1,0 +1,1 @@
+public enum TerrainType { Water, Grass, Rock }

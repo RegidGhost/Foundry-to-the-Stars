@@ -1,0 +1,1 @@
+public class Chest : BuildingBase { protected override int InventoryCapacity => 20; }
