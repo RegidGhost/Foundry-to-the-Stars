@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8200a3fafef49ea45aa9ee32348dc562, type: 3}
   m_Name: Coal
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  Id: 
-  DisplayName: 
+  Id: coal
+  DisplayName: Coal
   Icon: {fileID: 0}
-  Tint: {r: 1, g: 1, b: 1, a: 1}
+  Tint: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
   Type: 0

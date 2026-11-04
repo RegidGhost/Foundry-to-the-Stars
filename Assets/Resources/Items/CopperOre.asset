@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8200a3fafef49ea45aa9ee32348dc562, type: 3}
   m_Name: CopperOre
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  Id: 
-  DisplayName: 
+  Id: copper_ore
+  DisplayName: Copper Ore
   Icon: {fileID: 0}
-  Tint: {r: 1, g: 1, b: 1, a: 1}
+  Tint: {r: 0.8156863, g: 0.5019608, b: 0.2509804, a: 1}
   Type: 0

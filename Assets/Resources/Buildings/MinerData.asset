@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d5d351f3051674f8c9d34092e1076d, type: 3}
   m_Name: MinerData
   m_EditorClassIdentifier: Assembly-CSharp::BuildingData
-  Id: 
-  DisplayName: 
-  Size: {x: 1, y: 1}
-  Prefab: {fileID: 0}
+  Id: miner
+  DisplayName: Miner
+  Size: {x: 2, y: 2}
+  Prefab: {fileID: 7730486494598533680, guid: b67bba528f57cb24991b952ffef30d1a, type: 3}
   Icon: {fileID: 0}
   Cost: []
   PowerConsumption: 0
